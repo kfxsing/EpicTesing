@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DocumentGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>199316CE373B42CD9ED564E5B8A335B5</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>1</Version>
+    <Name>quick2</Name>
+  </Identity>
+  <Name>quick2</Name>
+  <Description />
+  <Status>Released</Status>
+  <IsShared>true</IsShared>
+  <Category>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+    <Description />
+  </Category>
+  <DocumentTypes>
+    <DocumentType>
+      <Identity>
+        <Id>2713EA35A84945C1AC675C846A3661D2</Id>
+        <Version>1</Version>
+        <Name />
+      </Identity>
+      <Name />
+      <Description />
+      <Status>Released</Status>
+      <FieldGroups />
+      <FieldValidators />
+      <DocumentTypeValidator>
+        <Identity>
+          <Id />
+          <Name />
+        </Identity>
+        <DocumentStandardValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <NumberOfPages>0</NumberOfPages>
+          <PageCountLevel>AtLeast</PageCountLevel>
+        </DocumentStandardValidator>
+        <DocumentValidators />
+      </DocumentTypeValidator>
+      <HasStandardValidator>false</HasStandardValidator>
+      <PdfSettings>
+        <Title />
+        <SkipFirstPage>false</SkipFirstPage>
+        <Subject />
+        <Author />
+        <Keywords />
+        <Application />
+        <Producer />
+      </PdfSettings>
+      <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+      <AvailableForManualClassification>true</AvailableForManualClassification>
+      <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+      <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+      <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+      <PostValidationHandler>
+        <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+      </PostValidationHandler>
+      <IsPartial>false</IsPartial>
+    </DocumentType>
+    <DocumentType>
+      <Identity>
+        <Id>41B8A9F2E1A5E3682555E300672DC283</Id>
+        <Version>1</Version>
+        <Name>Document Type1</Name>
+      </Identity>
+      <Name>Document Type1</Name>
+      <Description />
+      <Status>Released</Status>
+      <FieldGroups />
+      <FieldValidators />
+      <DocumentTypeValidator>
+        <Identity>
+          <Id />
+          <Name />
+        </Identity>
+        <DocumentStandardValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <NumberOfPages>0</NumberOfPages>
+          <PageCountLevel>AtLeast</PageCountLevel>
+        </DocumentStandardValidator>
+        <DocumentValidators />
+      </DocumentTypeValidator>
+      <ParentDocumentType>
+        <Id>2713EA35A84945C1AC675C846A3661D2</Id>
+        <Version>1</Version>
+        <Name />
+      </ParentDocumentType>
+      <HasStandardValidator>false</HasStandardValidator>
+      <PdfSettings>
+        <Title />
+        <SkipFirstPage>false</SkipFirstPage>
+        <Subject />
+        <Author />
+        <Keywords />
+        <Application />
+        <Producer />
+      </PdfSettings>
+      <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+      <AvailableForManualClassification>true</AvailableForManualClassification>
+      <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+      <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+      <MonitorForClassificationOnlineLearning>true</MonitorForClassificationOnlineLearning>
+      <PostValidationHandler>
+        <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+      </PostValidationHandler>
+      <IsPartial>false</IsPartial>
+    </DocumentType>
+  </DocumentTypes>
+  <LastModifiedDate>2024-09-11T01:27:59.073</LastModifiedDate>
+  <LastModifiedUser>
+    <Id>D6B20B0ECBAE4C939D942EB732081FF4</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <LockedByModule>None</LockedByModule>
+  <RootDocumentType>
+    <Id>2713EA35A84945C1AC675C846A3661D2</Id>
+    <Version>1</Version>
+    <Name />
+  </RootDocumentType>
+  <IsOnlineLearningEnabled>true</IsOnlineLearningEnabled>
+  <OnlineLearningSettings>
+    <OnlineLearningMaxNewSamples>2000</OnlineLearningMaxNewSamples>
+    <IsAutomaticOnlineLearningEnabled>true</IsAutomaticOnlineLearningEnabled>
+    <OnlineLearningFolderId />
+  </OnlineLearningSettings>
+  <FuzzyDatabases />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+  <Comments />
+</DocumentGroup>

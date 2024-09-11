@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ClassificationGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>0CB4F14C149E6685A19A0AF42E42FBB5</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>1</Version>
+    <Name>gitCG1</Name>
+  </Identity>
+  <Name>gitCG1</Name>
+  <Description />
+  <Status>Released</Status>
+  <IsShared>false</IsShared>
+  <Category>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+    <Description />
+  </Category>
+  <DocumentGroups>
+    <DocumentGroupIdentity>
+      <Id>81504BB2C90B424CA24BB5C2E8C9FBA3</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>1</Version>
+      <Name>GitGroup 1</Name>
+    </DocumentGroupIdentity>
+  </DocumentGroups>
+  <LastModifiedDate>2024-09-11T01:13:43.67</LastModifiedDate>
+  <LastModifiedUser>
+    <Id>D6B20B0ECBAE4C939D942EB732081FF4</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <LockedByModule>None</LockedByModule>
+  <ClassificationOnlineLearningEnabled>false</ClassificationOnlineLearningEnabled>
+  <ClassificationMaxDocCount>2000</ClassificationMaxDocCount>
+  <ClassificationOnlineLearningFolderId />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+  <OverwriteDocumentTypes>false</OverwriteDocumentTypes>
+  <OverwrittenDocumentTypes />
+</ClassificationGroup>

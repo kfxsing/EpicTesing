@@ -3,7 +3,7 @@
   <SpaPackageIdentity>
     <Id>5210907F790D49F5B2E2D5AA1DB46304</Id>
     <Name>test</Name>
-    <Version>2</Version>
+    <Version>3</Version>
   </SpaPackageIdentity>
   <Description />
   <CategoryIdentity>
@@ -12,7 +12,7 @@
     <Name>Default Category</Name>
     <Description />
   </CategoryIdentity>
-  <LastModifiedDateTime>2024-09-10T23:33:08.443</LastModifiedDateTime>
+  <LastModifiedDateTime>2024-09-10T23:56:11.797</LastModifiedDateTime>
   <LastModifiedResource>
     <Id>D6B20B0ECBAE4C939D942EB732081FF4</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
@@ -27,7 +27,7 @@
       <ProcessIdentity>
         <Id>B7A2C5C3DB28A4AE74996FEB4B357392</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
-        <Version>1</Version>
+        <Version>2</Version>
         <Name>1</Name>
       </ProcessIdentity>
     </Processes>
@@ -72,14 +72,33 @@
       <ExportReportingTags>false</ExportReportingTags>
       <ExportTestPlans>false</ExportTestPlans>
       <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
-      <IsGitExport>true</IsGitExport>
+      <IsGitExport>false</IsGitExport>
       <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
     </ProcessExportOption>
     <WorkAllocationRules />
     <Skins />
     <BusinessRules />
     <Assets />
-    <Forms />
+    <Forms>
+      <FormIdentity>
+        <Id>24ABCFD75F4D4D4CAB1229FC934A17CA</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>1Activity 1_New</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>4102F2CE2148496AAFC8C0F3CC0630F3</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>1CNJ</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>9DB3D0CCAA4A418FA3DB77272EAB74F6</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>AutomationRequest</Name>
+        <Version>37</Version>
+      </FormIdentity>
+    </Forms>
     <FormTemplates />
     <FormExportOptions>
       <ExportHeader>false</ExportHeader>
@@ -148,7 +167,14 @@
     <Checklists />
     <DataModels />
     <Folders />
-    <ExtractionGroups />
+    <ExtractionGroups>
+      <DocumentGroupIdentity>
+        <Id>8CC90E1C2B874FC69FBAABDDA75D81B1</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>EG1</Name>
+      </DocumentGroupIdentity>
+    </ExtractionGroups>
     <ClassificationGroups />
     <Formatters />
     <FieldValidators />
@@ -164,6 +190,12 @@
         <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
         <Name>Default Category</Name>
+        <Description />
+      </CategoryIdentity>
+      <CategoryIdentity>
+        <Id>E2A1706B60424707B39A1BDDDC8DB69C</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>TotalAgility Forms</Name>
         <Description />
       </CategoryIdentity>
     </Categories>
@@ -217,6 +249,7 @@
       <Version>0</Version>
       <AppType>QuickWorkflow</AppType>
     </QuickApp>
+    <GitFolderName>test</GitFolderName>
     <PackageItemAssociations>
       <PackageItemAssociation>
         <Id>B7A2C5C3DB28A4AE74996FEB4B357392</Id>
@@ -233,10 +266,98 @@
             <ItemType>0</ItemType>
             <Name>1</Name>
           </AssociatedItem>
+          <AssociatedItem>
+            <Id>E2A1706B60424707B39A1BDDDC8DB69C</Id>
+            <ItemType>28</ItemType>
+            <Name>TotalAgility Forms</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+            <ItemType>36</ItemType>
+            <Name>WORKQUEUE_FORM</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>5E0F01E4914A48D08009FFC40C130EFF</Id>
+            <ItemType>36</ItemType>
+            <Name>EPC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>8A1DD88A21124A98A51B5679DE7FDCB4</Id>
+            <ItemType>36</ItemType>
+            <Name>JOB_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AFBE96EA665E4F16A2FDA88044A23D0A</Id>
+            <ItemType>36</ItemType>
+            <Name>NODE_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>4102F2CE2148496AAFC8C0F3CC0630F3</Id>
+            <ItemType>6</ItemType>
+            <Name>1CNJ</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>24ABCFD75F4D4D4CAB1229FC934A17CA</Id>
+            <ItemType>6</ItemType>
+            <Name>1Activity 1_New</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>9DB3D0CCAA4A418FA3DB77272EAB74F6</Id>
+            <ItemType>6</ItemType>
+            <Name>AutomationRequest</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>8CC90E1C2B874FC69FBAABDDA75D81B1</Id>
+        <Name />
+        <ItemType>18</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>8CC90E1C2B874FC69FBAABDDA75D81B1</Id>
+            <ItemType>18</ItemType>
+            <Name>EG1</Name>
+          </AssociatedItem>
         </AssociatedItems>
       </PackageItemAssociation>
     </PackageItemAssociations>
-    <GlobalVariables />
+    <GlobalVariables>
+      <SessionVariableIdentity>
+        <Name>SESSION_ID</Name>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>WORKQUEUE_FORM</Name>
+        <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>EPC</Name>
+        <Id>5E0F01E4914A48D08009FFC40C130EFF</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>JOB_ID</Name>
+        <Id>8A1DD88A21124A98A51B5679DE7FDCB4</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>NODE_ID</Name>
+        <Id>AFBE96EA665E4F16A2FDA88044A23D0A</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+    </GlobalVariables>
     <ServerVariables />
     <DotNetReferences />
     <CurrencyCodes />

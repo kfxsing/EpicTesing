@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>AFE10859832D4C6081F0C27D55674DEA</Id>
+    <Name>folderpackage</Name>
+    <Version>2</Version>
+  </SpaPackageIdentity>
+  <Description />
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+    <Description />
+  </CategoryIdentity>
+  <LastModifiedDateTime>2024-09-11T01:04:30.477</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>D6B20B0ECBAE4C939D942EB732081FF4</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>shalini</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes />
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>None</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+      <IncludeDocumentTypeRetentionPolicy>false</IncludeDocumentTypeRetentionPolicy>
+      <ProcessDataModels />
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+      <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules />
+    <Assets />
+    <Forms>
+      <FormIdentity>
+        <Id>2C09CB8F73F24BC3A1836D29D7F72B5F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>FT1_Verification</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>5D45DD4AC447424596E80FC0C1E0DAAA</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>FT1_Scan</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>7EF4C1DCF2D543AB819DE8BC62917818</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>FT1_DocumentReview</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>A9D3AB36303149CFAA02D731C9A5369B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>FT1_Validation</Name>
+        <Version>1</Version>
+      </FormIdentity>
+    </Forms>
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <ProcessExportOptions>
+        <ExportResources>false</ExportResources>
+        <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+        <ExportResourcesExtensions>false</ExportResourcesExtensions>
+        <ExportCategories>false</ExportCategories>
+        <WithCategoryParentage>false</WithCategoryParentage>
+        <GeneralizedExport>false</GeneralizedExport>
+        <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+        <ExportCaseFragments>false</ExportCaseFragments>
+        <ExportTemplateSkins>false</ExportTemplateSkins>
+        <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+        <ExportGlobalDataModels>false</ExportGlobalDataModels>
+        <ExportProcessDataModels>false</ExportProcessDataModels>
+        <ExportType>CombineAssociatedMaps</ExportType>
+        <Version>0</Version>
+        <ExportServerVariables>true</ExportServerVariables>
+        <XmlExpressionVariables />
+        <PreloadScript>1</PreloadScript>
+        <SleepDuration>0</SleepDuration>
+        <CategoryIds />
+        <ProcessDocument>false</ProcessDocument>
+        <ProcessViewer>false</ProcessViewer>
+        <DotNetActivityType>0</DotNetActivityType>
+        <Projects />
+        <AllProcessVariables />
+        <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+        <SiteDetailsRequired>false</SiteDetailsRequired>
+        <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+        <DocumentTemplates />
+        <Assets />
+        <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+        <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+        <IncludeDocumentTypeRetentionPolicy>false</IncludeDocumentTypeRetentionPolicy>
+        <ProcessDataModels />
+        <IsSpaExport>false</IsSpaExport>
+        <ProcessType>BusinessProcess</ProcessType>
+        <ProtectedItems />
+        <ExportPageRenditions>false</ExportPageRenditions>
+        <ExportReportingTags>false</ExportReportingTags>
+        <ExportTestPlans>false</ExportTestPlans>
+        <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+        <IsGitExport>false</IsGitExport>
+        <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+      </ProcessExportOptions>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups />
+    <Resources />
+    <Entities />
+    <WorkTypes />
+    <Checklists />
+    <DataModels />
+    <Folders>
+      <FolderTypeIdentity>
+        <Id>036054F6CBE84115ADA1A3888CAF5862</Id>
+        <AutomaticallyPopulate>false</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>FT1</Name>
+      </FolderTypeIdentity>
+    </Folders>
+    <ExtractionGroups />
+    <ClassificationGroups />
+    <Formatters />
+    <FieldValidators />
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Default Category</Name>
+        <Description />
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles />
+    <PdfGenerationProfiles />
+    <DocumentConversionProfiles />
+    <BarcodePatchcodeProfiles />
+    <JobSchedules />
+    <RegularExpressions />
+    <Personas />
+    <SeparationProfiles />
+    <Queries />
+    <ShowProcessAssociations>false</ShowProcessAssociations>
+    <ShowFormAssociations>false</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+      <IncludeErrorCodes>false</IncludeErrorCodes>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>false</ShowCategoryAssociations>
+    <Packages />
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>false</IncludeRoleMembers>
+    <IncludeDevices>false</IncludeDevices>
+    <IncludeDeviceProfiles>false</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>false</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections />
+    <ImportSources />
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+      <AppType>QuickWorkflow</AppType>
+    </QuickApp>
+    <PackageItemAssociations>
+      <PackageItemAssociation>
+        <Id>036054F6CBE84115ADA1A3888CAF5862</Id>
+        <Name />
+        <ItemType>19</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>036054F6CBE84115ADA1A3888CAF5862</Id>
+            <ItemType>19</ItemType>
+            <Name>FT1</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>5D45DD4AC447424596E80FC0C1E0DAAA</Id>
+            <ItemType>6</ItemType>
+            <Name>FT1_Scan</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>A9D3AB36303149CFAA02D731C9A5369B</Id>
+            <ItemType>6</ItemType>
+            <Name>FT1_Validation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2C09CB8F73F24BC3A1836D29D7F72B5F</Id>
+            <ItemType>6</ItemType>
+            <Name>FT1_Verification</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>7EF4C1DCF2D543AB819DE8BC62917818</Id>
+            <ItemType>6</ItemType>
+            <Name>FT1_DocumentReview</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+    </PackageItemAssociations>
+    <GlobalVariables />
+    <ServerVariables />
+    <DotNetReferences />
+    <CurrencyCodes />
+    <QuickAppType>QuickWorkflow</QuickAppType>
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+  <SpaPackageType>Default</SpaPackageType>
+</SpaPackage>

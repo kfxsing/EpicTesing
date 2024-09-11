@@ -119,12 +119,22 @@
   <LastModifiedUser>
     <Id>D6B20B0ECBAE4C939D942EB732081FF4</Id>
     <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>shalini</Name>
     <ResourceType>Worker</ResourceType>
     <EmailAddress />
     <UserId />
     <ManagerialLevel>0</ManagerialLevel>
   </LastModifiedUser>
-  <LockedByModule>None</LockedByModule>
+  <LockedBy>
+    <Id>D6B20B0ECBAE4C939D942EB732081FF4</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>shalini</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LockedBy>
+  <LockedByModule>TotalAgilityDesigner</LockedByModule>
   <RootDocumentType>
     <Id>2713EA35A84945C1AC675C846A3661D2</Id>
     <Version>1</Version>
